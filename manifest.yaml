@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gangadhariy/newist:v1
+        image: gangadhariy/mesh:blue
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gangadhariy/newist:v2
+        image: gangadhariy/mesh:green
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80

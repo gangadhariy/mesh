@@ -16,5 +16,10 @@ Implementation
 After installed servicemesh and configured it label the namespace which you want to deploy the apps
 do the following
 
-git clone 
+git clone https://github.com/gangadhariy/mesh.git
+cd mesh
+kubectl apply -f manifest.yaml -n <namespace>
+kubectl apply -f gateway.yaml -n <namespace>
+kubectl apply -f rule.yaml    -n <namespace>
+kubectl apply -f virtualservice.yaml -n <namespace>
 then run the following command to deploy 2 apps as blue and green 

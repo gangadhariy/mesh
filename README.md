@@ -1,4 +1,4 @@
-Blue-Green Deployment
+__Blue-Green Deployment__
 Overview
 Blue-green deployment is a strategy for releasing software updates with minimal downtime and risk. It involves maintaining two identical production environments, referred to as "blue" and "green". At any given time, only one of these environments serves live traffic while the other remains idle. The active environment (e.g., blue) handles all user requests, while the inactive environment (e.g., green) receives the updated version of the application.
 

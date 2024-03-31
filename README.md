@@ -30,16 +30,16 @@ git clone https://github.com/gangadhariy/mesh.git
 cd mesh
 
 
-kubectl apply -f manifest.yaml -n <namespace>
+kubectl apply -f manifest.yaml -n namespace_name
 
 
-kubectl apply -f gateway.yaml -n <namespace>
+kubectl apply -f gateway.yaml -n namespace_name
 
 
-kubectl apply -f rule.yaml    -n <namespace>
+kubectl apply -f rule.yaml    -n namespace_name
 
 
-kubectl apply -f virtualservice.yaml -n <namespace>
+kubectl apply -f virtualservice.yaml -n namespace_name
 
 
 then run the following command to deploy 2 apps as blue and green 

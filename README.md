@@ -25,7 +25,11 @@ After installed servicemesh and configured it label the namespace which you want
 do the following
 
 git clone https://github.com/gangadhariy/mesh.git
+
+
 cd mesh
+
+
 kubectl apply -f manifest.yaml -n <namespace>
 
 

@@ -30,10 +30,7 @@ go to the mesh directory
 ```
 cd mesh
 ```
-# apply manifest files to create cr's
-```
-kubectl apply -f manifest.yaml -n namespace_name
-```
+
 # Create gateway
 ```
 kubectl apply -f gateway.yaml -n namespace_name
@@ -48,3 +45,7 @@ kubectl apply -f virtualservice.yaml -n namespace_name
 ```
 
 then run the following command to deploy 2 apps as blue and green 
+# apply manifest files to create cr's
+```
+kubectl apply -f manifest.yaml -n namespace_name
+```
